@@ -1,0 +1,125 @@
+* { 
+ margin:0;
+ padding:0;
+
+}
+
+body {
+     height: 100vh; 
+     box-sizing: border-box; 
+     background-color: #000000;
+     color: #F6F6F6;
+    
+}
+
+.apresentacao {
+ display: flex; /*todos os elementos
+ficam em linha por padrão, mas pode
+ser configurável*/
+ align-items: center; /*alinha todos
+os elementos com base na imagem*/
+ justify-content: space-between;
+/*espaçpo entre os objetos*/
+ margin: 10% 15%; /* quanto maior a
+porcentagem na horizontal mais pertos
+ficam os elementos*/
+
+   }
+
+.apresentacao_conteudo{
+    width: 615px; /*Olhar no projeto do
+    Figma*/
+     display: flex;
+     flex-direction: column; /*posicionando
+    elementos na vertical*/
+     gap: 40px; /*verificar no Figma*/ /* o
+    gap é o espaçamento entre elementos*/
+}
+
+.apresentacao_conteudo_titulo{
+    font-size: 35px; /*Olhar no projeto do Figma*/
+    font-family: 'Krona One', sans-serif;
+
+}
+
+.apresentacao_conteudo_texto{
+    font-size: 24px; /*Olhar no projeto do Figma*/
+}
+.apresentacao_conteudo_texto_1 {
+    font-size: 20px; /*Olhar no projeto do Figma*/
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+   }
+
+.apresentacao__links__link {
+    /* background-color: #22D4FD; */
+ display: flex;
+ justify-content: center; /*alinhando no
+centro*/
+ gap: 16px;
+ border: 2px solid #22D4FD;
+/*tamanho da linha, tracejado, e
+cor*/
+ width: 378px;
+ text-align: center;
+ border-radius: 8px;
+ font-size: 24px;
+ font-weight: 600;
+ padding: 21.5px 0;
+ text-decoration: none;
+ color: #F6F6F6;
+ font-family: 'Montserrat',
+sans-serif;
+}
+
+.titulo_destaque {
+    color: #22D4FD;
+   }
+   
+.apresentacao__links__link:hover {
+    background-color: #272727;
+   }
+   
+.rodape {
+    color:#000000;
+    background-color: #22D4FD;
+    padding: 21px;
+    text-align: center;
+    font-family:'Montserrat',sans-serif ;
+    font-size: 24px;
+    font-weight: 400;;
+   }
+
+.cabecalho__menu__link {
+    font-family:
+   'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22D4FD;
+   }
+   
+.cabecalho{
+    padding:2% 0% 0% 15% ; /*4 valores:
+   1-superior 2-direito 3-inferior 4- lado
+   esquerdo*/
+   }
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+   }
+.cabecalho__menu__link {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #22D4FD;
+    text-decoration: none;
+   }
+   
+   
